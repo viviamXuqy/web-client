@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeIndex MiddleList component should render right thing and don't change unexpected 1`] = `
+<div>
+  <div
+    className="ant-list homeindex-results-list ant-list-split ant-list-grid"
+  >
+    <div
+      className="ant-spin-nested-loading"
+      style={null}
+    >
+      <div
+        className="ant-spin-container"
+      >
+        <div
+          className="ant-row"
+          style={
+            Object {
+              "marginLeft": -8,
+              "marginRight": -8,
+            }
+          }
+        >
+          <div
+            className="ant-col-4"
+          >
+            <div
+              className="ant-list-item"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                }
+              }
+            >
+              <div
+                className="ant-list-item-content ant-list-item-content-single"
+              >
+                <a
+                  href="/cameras/ipc"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="text-center"
+                  >
+                    <button
+                      className="ant-btn ant-btn-primary ant-btn-circle ant-btn-lg"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <i
+                        className="anticon iconfont icon-camera index-page-middle-icon"
+                      />
+                    </button>
+                    <div
+                      className="index-page-middle-label"
+                    >
+                      <span>
+                        设备管理
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-col-4"
+          >
+            <div
+              className="ant-list-item"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                }
+              }
+            >
+              <div
+                className="ant-list-item-content ant-list-item-content-single"
+              >
+                <a
+                  href="/tasks/analysis"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="text-center"
+                  >
+                    <button
+                      className="ant-btn ant-btn-primary ant-btn-circle ant-btn-lg"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <i
+                        className="anticon iconfont icon-mission index-page-middle-icon"
+                      />
+                    </button>
+                    <div
+                      className="index-page-middle-label"
+                    >
+                      <span>
+                        结构化任务
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-col-4"
+          >
+            <div
+              className="ant-list-item"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                }
+              }
+            >
+              <div
+                className="ant-list-item-content ant-list-item-content-single"
+              >
+                <a
+                  href="/results/resultsList"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="text-center"
+                  >
+                    <button
+                      className="ant-btn ant-btn-primary ant-btn-circle ant-btn-lg"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <i
+                        className="anticon iconfont icon-scan index-page-middle-icon"
+                      />
+                    </button>
+                    <div
+                      className="index-page-middle-label"
+                    >
+                      <span>
+                        识别结果
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-col-4"
+          >
+            <div
+              className="ant-list-item"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                }
+              }
+            >
+              <div
+                className="ant-list-item-content ant-list-item-content-single"
+              >
+                <a
+                  href="/smartapp"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="text-center"
+                  >
+                    <button
+                      className="ant-btn ant-btn-primary ant-btn-circle ant-btn-lg"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <i
+                        className="anticon iconfont icon-apply index-page-middle-icon"
+                      />
+                    </button>
+                    <div
+                      className="index-page-middle-label"
+                    >
+                      <span>
+                        智能应用
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-col-4"
+          >
+            <div
+              className="ant-list-item"
+              style={
+                Object {
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                }
+              }
+            >
+              <div
+                className="ant-list-item-content ant-list-item-content-single"
+              >
+                <a
+                  href="/system/setting"
+                  onClick={[Function]}
+                >
+                  <div
+                    className="text-center"
+                  >
+                    <button
+                      className="ant-btn ant-btn-primary ant-btn-circle ant-btn-lg"
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <i
+                        className="anticon iconfont icon-system index-page-middle-icon"
+                      />
+                    </button>
+                    <div
+                      className="index-page-middle-label"
+                    >
+                      <span>
+                        系统管理
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

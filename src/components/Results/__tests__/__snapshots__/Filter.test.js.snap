@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter component should render right thing and don't change unexpected 1`] = `
+<div>
+  <form
+    className="ant-form ant-form-inline app-page__filter"
+    onSubmit={[Function]}
+  >
+    <div
+      className="fl"
+    >
+      <div
+        className="ant-row ant-form-item"
+        style={undefined}
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control"
+          >
+            <span
+              className="ant-form-item-children"
+            >
+              <input
+                className="ant-input result-input"
+                data-__field={
+                  Object {
+                    "name": "search",
+                    "value": "",
+                  }
+                }
+                data-__meta={
+                  Object {
+                    "name": "search",
+                    "originalProps": Object {
+                      "className": "result-input",
+                      "disabled": false,
+                      "placeholder": "关键字",
+                      "prefixCls": "ant-input",
+                      "type": "text",
+                    },
+                    "ref": null,
+                    "trigger": "onChange",
+                    "validate": Array [],
+                    "valuePropName": "value",
+                  }
+                }
+                disabled={false}
+                id="search"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="关键字"
+                type="text"
+                value=""
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ant-row ant-form-item"
+        style={undefined}
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control has-success"
+          >
+            <span
+              className="ant-form-item-children"
+            >
+              <span
+                className="ant-calendar-picker"
+                id="range"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                style={
+                  Object {
+                    "width": 330,
+                  }
+                }
+                tabIndex={0}
+              >
+                <span
+                  className="ant-calendar-picker-input ant-input"
+                  onBlur={undefined}
+                  onClick={[Function]}
+                  onContextMenu={undefined}
+                  onFocus={undefined}
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  onTouchStart={[Function]}
+                >
+                  <input
+                    className="ant-calendar-range-picker-input"
+                    disabled={undefined}
+                    placeholder="开始日期"
+                    readOnly={true}
+                    tabIndex={-1}
+                    value=""
+                  />
+                  <span
+                    className="ant-calendar-range-picker-separator"
+                  >
+                     ~ 
+                  </span>
+                  <input
+                    className="ant-calendar-range-picker-input"
+                    disabled={undefined}
+                    placeholder="结束日期"
+                    readOnly={true}
+                    tabIndex={-1}
+                    value=""
+                  />
+                  <span
+                    className="ant-calendar-picker-icon"
+                  />
+                </span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ant-row ant-form-item"
+        style={undefined}
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control"
+          >
+            <span
+              className="ant-form-item-children"
+            >
+              <input
+                className="ant-input result-input"
+                data-__field={
+                  Object {
+                    "name": "taskBeginId",
+                    "value": undefined,
+                  }
+                }
+                data-__meta={
+                  Object {
+                    "name": "taskBeginId",
+                    "originalProps": Object {
+                      "className": "result-input",
+                      "disabled": false,
+                      "placeholder": "开始任务ID",
+                      "prefixCls": "ant-input",
+                      "type": "text",
+                    },
+                    "ref": null,
+                    "trigger": "onChange",
+                    "validate": Array [],
+                    "valuePropName": "value",
+                  }
+                }
+                disabled={false}
+                id="taskBeginId"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="开始任务ID"
+                type="text"
+                value=""
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="results-list__lable"
+      >
+        至
+      </div>
+      <div
+        className="ant-row ant-form-item"
+        style={undefined}
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control"
+          >
+            <span
+              className="ant-form-item-children"
+            >
+              <input
+                className="ant-input result-input"
+                data-__field={
+                  Object {
+                    "name": "taskEndId",
+                    "value": undefined,
+                  }
+                }
+                data-__meta={
+                  Object {
+                    "name": "taskEndId",
+                    "originalProps": Object {
+                      "className": "result-input",
+                      "disabled": false,
+                      "placeholder": "结束任务ID",
+                      "prefixCls": "ant-input",
+                      "type": "text",
+                    },
+                    "ref": null,
+                    "trigger": "onChange",
+                    "validate": Array [],
+                    "valuePropName": "value",
+                  }
+                }
+                disabled={false}
+                id="taskEndId"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder="结束任务ID"
+                type="text"
+                value=""
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ant-row ant-form-item buttons-group"
+        style={undefined}
+      >
+        <div
+          className="ant-form-item-control-wrapper"
+        >
+          <div
+            className="ant-form-item-control"
+          >
+            <span
+              className="ant-form-item-children"
+            >
+              <button
+                className="ant-btn ant-btn-primary"
+                onClick={[Function]}
+                type="submit"
+              >
+                <i
+                  className="anticon anticon-search"
+                />
+                <span>
+                  检索
+                </span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;

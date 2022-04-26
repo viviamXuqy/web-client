@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeIndex List component should render right thing and don't change unexpected 1`] = `
+<div>
+  <div>
+    <div
+      className="ant-list homeindex-results-list ant-list-split ant-list-grid"
+    >
+      <div
+        className="ant-spin-nested-loading"
+        style={null}
+      >
+        <div
+          className="ant-spin-container"
+        >
+          <div
+            className="ant-row"
+            style={
+              Object {
+                "marginLeft": -10,
+                "marginRight": -10,
+              }
+            }
+          >
+            <div
+              className="ant-col-4"
+            >
+              <div
+                className="ant-list-item homeindex-results-list__item"
+                style={
+                  Object {
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                  }
+                }
+              >
+                <div
+                  className="ant-list-item-content ant-list-item-content-single"
+                >
+                  <mock-comp1
+                    isResultList={false}
+                    result={
+                      Object {
+                        "_id": 0,
+                        "id": "0",
+                        "key": "0",
+                        "targetType": "car",
+                        "taskId": 0,
+                        "taskName": "test",
+                        "taskType": 1,
+                        "time": 1529355966000,
+                      }
+                    }
+                    showResultDetail={[Function]}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-col-4"
+            >
+              <div
+                className="ant-list-item homeindex-results-list__item"
+                style={
+                  Object {
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                  }
+                }
+              >
+                <div
+                  className="ant-list-item-content ant-list-item-content-single"
+                >
+                  <mock-comp1
+                    isResultList={false}
+                    result={
+                      Object {
+                        "_id": 1,
+                        "id": "1",
+                        "key": "1",
+                        "targetType": "car",
+                        "taskId": 1,
+                        "taskName": "test",
+                        "taskType": 1,
+                        "time": 1529355966000,
+                      }
+                    }
+                    showResultDetail={[Function]}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-col-4"
+            >
+              <div
+                className="ant-list-item homeindex-results-list__item"
+                style={
+                  Object {
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                  }
+                }
+              >
+                <div
+                  className="ant-list-item-content ant-list-item-content-single"
+                >
+                  <mock-comp1
+                    isResultList={false}
+                    result={
+                      Object {
+                        "_id": 2,
+                        "id": "2",
+                        "key": "2",
+                        "targetType": "car",
+                        "taskId": 2,
+                        "taskName": "test",
+                        "taskType": 1,
+                        "time": 1529355966000,
+                      }
+                    }
+                    showResultDetail={[Function]}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-col-4"
+            >
+              <div
+                className="ant-list-item homeindex-results-list__item"
+                style={
+                  Object {
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                  }
+                }
+              >
+                <div
+                  className="ant-list-item-content ant-list-item-content-single"
+                >
+                  <mock-comp1
+                    isResultList={false}
+                    result={
+                      Object {
+                        "_id": 3,
+                        "id": "3",
+                        "key": "3",
+                        "targetType": "car",
+                        "taskId": 3,
+                        "taskName": "test",
+                        "taskType": 1,
+                        "time": 1529355966000,
+                      }
+                    }
+                    showResultDetail={[Function]}
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-col-4"
+            >
+              <div
+                className="ant-list-item homeindex-results-list__item"
+                style={
+                  Object {
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                  }
+                }
+              >
+                <div
+                  className="ant-list-item-content ant-list-item-content-single"
+                >
+                  <mock-comp1
+                    isResultList={false}
+                    result={
+                      Object {
+                        "_id": 4,
+                        "id": "4",
+                        "key": "4",
+                        "targetType": "car",
+                        "taskId": 4,
+                        "taskName": "test",
+                        "taskType": 1,
+                        "time": 1529355966000,
+                      }
+                    }
+                    showResultDetail={[Function]}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

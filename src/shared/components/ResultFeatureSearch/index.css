@@ -1,0 +1,19 @@
+.app-result-feature-search .lable {
+color: rgba(137,152,170,1);
+font-size: 16px;
+text-align: right;
+vertical-align: middle;
+margin-top: 5px;
+}
+
+.app-result-feature-search .lable2 {
+vertical-align: middle;
+}
+
+.app-result-feature-search .feature {
+margin-top: 6px;
+}
+
+.app-result-feature-search .feature .ant-table {
+min-height: 260px;
+}

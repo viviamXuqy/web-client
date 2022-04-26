@@ -1,0 +1,21 @@
+.app-camera-bayonetAdd .ant-input {
+  width: 200px;
+  margin: 0 8px 8px 0;
+}
+
+.app-camera-bayonetAdd .fl {
+  margin-top: 15px;
+}
+
+.app-camera-bayonetAdd .fl .ant-btn {
+  padding: 0 4px;
+  float: right;
+}
+
+.app-camera-bayonetAdd__actions {
+  margin-top: 80px;
+}
+
+.app-camera-bayonetAdd .ant-table {
+  min-height: 150px;
+}

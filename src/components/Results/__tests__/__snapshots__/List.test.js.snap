@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component should render right thing and don't change unexpected 1`] = `
+<div>
+  <div
+    className="ant-list results-list ant-list-split ant-list-grid ant-list-something-after-last-item"
+  >
+    <div
+      className="ant-spin-nested-loading"
+      style={null}
+    >
+      <div
+        className="ant-spin-container"
+      >
+        <div
+          className="ant-row"
+          style={
+            Object {
+              "marginLeft": -10,
+              "marginRight": -10,
+            }
+          }
+        >
+          <div
+            className="ant-col-6"
+          >
+            <div
+              className="ant-list-item results-list__item"
+              style={
+                Object {
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                }
+              }
+            >
+              <div
+                className="ant-list-item-content ant-list-item-content-single"
+              >
+                <mock-ResultsCard
+                  isResultList={true}
+                  isSelected={false}
+                  onDelete={[Function]}
+                  onSelect={[Function]}
+                  result={
+                    Object {
+                      "_id": 0,
+                      "id": "0",
+                      "key": "0",
+                      "targetType": "car",
+                      "taskId": 0,
+                      "taskName": "test",
+                      "taskType": 1,
+                      "time": 1529355966000,
+                    }
+                  }
+                  showResultDetail={[Function]}
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-col-6"
+          >
+            <div
+              className="ant-list-item results-list__item"
+              style={
+                Object {
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                }
+              }
+            >
+              <div
+                className="ant-list-item-content ant-list-item-content-single"
+              >
+                <mock-ResultsCard
+                  isResultList={true}
+                  isSelected={false}
+                  onDelete={[Function]}
+                  onSelect={[Function]}
+                  result={
+                    Object {
+                      "_id": 1,
+                      "id": "1",
+                      "key": "1",
+                      "targetType": "car",
+                      "taskId": 1,
+                      "taskName": "test",
+                      "taskType": 1,
+                      "time": 1529355966000,
+                    }
+                  }
+                  showResultDetail={[Function]}
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-col-6"
+          >
+            <div
+              className="ant-list-item results-list__item"
+              style={
+                Object {
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                }
+              }
+            >
+              <div
+                className="ant-list-item-content ant-list-item-content-single"
+              >
+                <mock-ResultsCard
+                  isResultList={true}
+                  isSelected={false}
+                  onDelete={[Function]}
+                  onSelect={[Function]}
+                  result={
+                    Object {
+                      "_id": 2,
+                      "id": "2",
+                      "key": "2",
+                      "targetType": "car",
+                      "taskId": 2,
+                      "taskName": "test",
+                      "taskType": 1,
+                      "time": 1529355966000,
+                    }
+                  }
+                  showResultDetail={[Function]}
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-col-6"
+          >
+            <div
+              className="ant-list-item results-list__item"
+              style={
+                Object {
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                }
+              }
+            >
+              <div
+                className="ant-list-item-content ant-list-item-content-single"
+              >
+                <mock-ResultsCard
+                  isResultList={true}
+                  isSelected={false}
+                  onDelete={[Function]}
+                  onSelect={[Function]}
+                  result={
+                    Object {
+                      "_id": 3,
+                      "id": "3",
+                      "key": "3",
+                      "targetType": "car",
+                      "taskId": 3,
+                      "taskName": "test",
+                      "taskType": 1,
+                      "time": 1529355966000,
+                    }
+                  }
+                  showResultDetail={[Function]}
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-col-6"
+          >
+            <div
+              className="ant-list-item results-list__item"
+              style={
+                Object {
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                }
+              }
+            >
+              <div
+                className="ant-list-item-content ant-list-item-content-single"
+              >
+                <mock-ResultsCard
+                  isResultList={true}
+                  isSelected={false}
+                  onDelete={[Function]}
+                  onSelect={[Function]}
+                  result={
+                    Object {
+                      "_id": 4,
+                      "id": "4",
+                      "key": "4",
+                      "targetType": "car",
+                      "taskId": 4,
+                      "taskName": "test",
+                      "taskType": 1,
+                      "time": 1529355966000,
+                    }
+                  }
+                  showResultDetail={[Function]}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ant-list-pagination"
+    >
+      <ul
+        className="ant-pagination "
+        style={Object {}}
+        unselectable="unselectable"
+      >
+        <li
+          aria-disabled={true}
+          className="ant-pagination-disabled ant-pagination-prev"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex={null}
+          title="上一页"
+        >
+          <a
+            className="ant-pagination-item-link"
+          />
+        </li>
+        <li
+          className="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex="0"
+          title={1}
+        >
+          <a>
+            1
+          </a>
+        </li>
+        <li
+          className="ant-pagination-item ant-pagination-item-2"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex="0"
+          title={2}
+        >
+          <a>
+            2
+          </a>
+        </li>
+        <li
+          className="ant-pagination-item ant-pagination-item-3"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex="0"
+          title={3}
+        >
+          <a>
+            3
+          </a>
+        </li>
+        <li
+          className="ant-pagination-item ant-pagination-item-4"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex="0"
+          title={4}
+        >
+          <a>
+            4
+          </a>
+        </li>
+        <li
+          className="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex="0"
+          title={5}
+        >
+          <a>
+            5
+          </a>
+        </li>
+        <li
+          className="ant-pagination-jump-next"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex="0"
+          title="向后 5 页"
+        >
+          <a
+            className="ant-pagination-item-link"
+          />
+        </li>
+        <li
+          className="ant-pagination-item ant-pagination-item-20"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex="0"
+          title={20}
+        >
+          <a>
+            20
+          </a>
+        </li>
+        <li
+          aria-disabled={false}
+          className=" ant-pagination-next"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          tabIndex={0}
+          title="下一页"
+        >
+          <a
+            className="ant-pagination-item-link"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

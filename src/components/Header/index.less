@@ -1,0 +1,73 @@
+@import '../../styles/variables';
+
+.header-nav__login {
+  float: right;
+  margin-top: -1px;
+  color: rgba(255, 255, 255, 0.67);
+
+  a {
+    color: #fff;
+  }
+}
+
+.app-header {
+  .anticon {
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+  .ant-menu {
+    line-height: 64px;
+  }
+
+  a:focus {
+    text-decoration: none;
+  }
+
+  .ant-menu-submenu a {
+    color: rgba(255, 255, 255, 0.65);
+
+    .ant-menu-item-selected a {
+      color: #fff;
+    }
+  }
+
+  .ant-menu-dark .ant-menu-submenu-selected {
+    color: #fff;
+    background-color: @primary-color;
+  }
+
+  .header-nav__middle {
+    &.ant-menu-item, .ant-menu-submenu-title {
+      padding: 0 17px;
+    }
+  }
+}
+
+.app-header__user-menu {
+  margin-left: 1rem;
+}
+
+.header-nav__right {
+  .ant-menu {
+    float: right;
+  }
+
+  .ant-avatar {
+    margin-right: 10px;
+    vertical-align: middle;
+
+    .anticon {
+      margin-right: 0;
+    }
+  }
+}
+
+.ant-menu-horizontal {
+  border: 0;
+}
+
+.app-header__user-name {
+  max-width: 228px;
+  overflow: hidden;
+}

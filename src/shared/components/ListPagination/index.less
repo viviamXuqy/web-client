@@ -1,0 +1,31 @@
+@import '../../../styles/variables';
+.list-pagination{
+    border: 1px solid @light-gray;
+    border-radius: 4px;
+    min-height: 187px;
+    position: relative;
+    margin-bottom: 39px;
+}
+.list-pagination .list-box li{
+    padding: 8px;
+}
+.list-pagination .list-box .ant-checkbox{
+    padding: 0px 8px 0px 0px;
+}
+.list-pagination .list-box li:hover{
+    background: #e6f7ff;
+}
+.list-pagination .list-box li.selected{
+    background: #fafafa;
+}
+.list-pagination .pagination{
+    position: absolute;
+    bottom: -39px;
+    right: 0;
+}
+.list-pagination .list-box .checkbox>span:nth-child(2){
+    display: inline-block;
+    width: 238px;
+    word-wrap: break-word;
+    word-break: normal;
+}

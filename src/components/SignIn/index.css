@@ -1,0 +1,102 @@
+a {
+  text-decoration: none;
+}
+
+.sign-page {
+  padding: 0;
+  background-image: url("../../assets/images/login_bg.jpg");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.sign-page:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* background-color: rgba(0,0,0,.8); */
+}
+
+.sign-page__box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  width: 900px;
+  background-color: #fff;
+  justify-content: space-around;
+  box-shadow: 0 2px 10px rgba(0,0,0,.3);
+}
+
+.sign-page__box > div {
+  width: 50%;
+}
+
+.sign-page__slogan {
+  position: relative;
+  padding: 50px;
+  background-color: #153F71;
+}
+
+.sign-page__slogan > h1 {
+  font-size: 72px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.sign-page__slogan > h2 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.sign-page__slogan .app-logo {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+.sign-page__slogan .app-logo__title {
+  color: #fff;
+}
+
+.sign-page__form {
+  width: 50%;
+  padding: 50px;
+}
+
+.sign-page__form h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.sign-page__form .ant-form-item-label label {
+  font-size: 16px;
+}
+
+.sign-page__form .ant-form-item-required:before {
+  content: '';
+}
+
+.sign-page__form .form__footer {
+  margin: 60px 0 0;
+}
+
+.form__remember {
+  margin-top: 4px;
+}
+
+.form__btn {
+  width: 50%;
+  float: right;
+  border-radius: 100px;
+  height: 40px;
+}

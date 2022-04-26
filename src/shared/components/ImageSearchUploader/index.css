@@ -1,0 +1,32 @@
+.image-search-uploader .ant-upload-list-picture-card .ant-upload-list-item {
+  width: 280px;
+  height: 260px;
+}
+
+.image-search-uploader .ant-upload.ant-upload-select-picture-card {
+  width: 483px;
+  height: 260px;
+}
+
+.image-search-uploader .tupianImg {
+  width: 483px;
+  height: 260px;
+  display: block;
+  float: left;
+  position: relative;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.image-search-uploader .tupianImg > img {
+  width:auto;
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+  position: absolute;
+}
+
+.image-search-uploader .tupianImg > canvas {
+  position: absolute;
+}

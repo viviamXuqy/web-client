@@ -1,0 +1,71 @@
+.app-task-add .window-content__footer {
+  margin-top: 0px;
+}
+
+.app-task-add .lable2 {
+  vertical-align: middle;
+}
+
+.app-task-add .bayonet-table {
+  margin-top: 16px;
+  width: 280px;
+}
+
+.app-task-add .bayonet-table .ant-table {
+  min-height: 150px;
+}
+
+.app-task-add .feature {
+  margin-top: 6px;
+  width: 160px;
+}
+
+.app-task-add .feature .ant-table {
+  min-height: 170px;
+}
+
+.app-task-add .select-camera {
+  margin-top: 30px;
+}
+
+.app-task-add .select-camera-table {
+  width: 280px;
+}
+
+.app-task-add .select-camera-table .ant-table {
+  min-height: 150px;
+}
+
+.app-task-add .selected-camera-clear {
+  color: rgba(217,68,76,1);
+  margin-right: 10px;
+}
+
+.app-task-add .selected-camera-tablelink{
+  border: 0;
+  background-color: transparent;
+  outline:none;
+}
+.app-task-add .selected-camera-tablelink:hover, .selected-camera-tablelink:visited{
+  border: 0;
+  background-color: transparent;
+  cursor:pointer;
+  outline:none;
+}
+
+.app-task-add .selected-camera {
+  margin-top: 6px;
+  width: 340px;
+}
+
+.app-task-add .selected-camera .ant-table {
+  min-height: 187px;
+}
+
+.app-task-add .disabled .ant-table-content{
+  color: #b7b5b5;
+}
+
+.app-task-add .ant-radio-wrapper {
+  white-space: normal;
+}

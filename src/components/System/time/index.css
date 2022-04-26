@@ -1,0 +1,11 @@
+.ntp-form .ant-form-item-label{
+    text-align: left;
+}
+.ntp-form .ant-form-item-label label{
+    color: inherit;
+}
+.ntp-form .sync-check{
+    position: absolute;
+    right: -92px;
+    top: 10px;
+}

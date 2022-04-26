@@ -1,0 +1,60 @@
+.taskresults-card-label {
+  color: rgb(137, 137, 137);
+  font-size: 12px;
+}
+
+.taskresults-card-label-content {
+  color: rgb(28, 28, 31);
+  font-size: 12px;
+}
+
+.taskresults-card-div {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.taskresults-card-content {
+  .ant-btn-dashed {
+    border: 0;
+    background-color: transparent;
+    outline: none;
+
+    &:hover, &:focus {
+      border: 0;
+      background-color: transparent;
+      outline: none;
+    }
+  }
+
+  .large-icon {
+    font-size: 18px;
+  }
+
+  .divhand {
+    cursor: pointer;
+  }
+}
+
+.taskresults-card-content__btnGroups {
+  float: right;
+
+  .ant-radio-wrapper {
+    margin-right: 0;
+  }
+}
+
+.taskresults-card__lazyload {
+  opacity: 1;
+  animation: taskresults-card__lazyload-show 2s ease-in-out 1;
+}
+
+@keyframes taskresults-card__lazyload-show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

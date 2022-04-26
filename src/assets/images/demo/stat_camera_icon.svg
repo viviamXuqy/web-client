@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="33px" viewBox="0 0 38 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_camera</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M35,7 L3,7 L3,11.8415506 C3,13.6374891 4.4278125,15.0986078 6.1828125,15.0986078 L6.440875,15.0986078 L6.440875,19.1479116 C6.440875,26.2345772 12.074875,32 19,32 C25.925125,32 31.559125,26.2345772 31.559125,19.1479116 L31.559125,15.0986078 L31.8171875,15.0986078 C33.5721875,15.0986078 35,13.6374891 35,11.8415506 L35,7 Z M19,30.5915187 C14.197875,30.5915187 10.0933125,27.4777273 8.5121875,23.1196985 L13.540375,23.1196985 C13.88025,25.8941292 16.19825,28.0479761 19.0000625,28.0479761 C21.801875,28.0479761 24.1198125,25.8940652 24.4596875,23.1196985 L29.4878125,23.1196985 C27.9066875,27.4777273 23.802125,30.5915187 19,30.5915187 Z M14.8721875,22.4155218 C14.8721875,20.0863023 16.7239375,18.191357 19.0000625,18.191357 C21.276125,18.191357 23.127875,20.0863023 23.127875,22.4155218 C23.127875,24.7446774 21.276125,26.6396227 19.0000625,26.6396227 C16.7239375,26.6396227 14.8721875,24.7447414 14.8721875,22.4155218 Z M30.1828125,19.1479116 C30.1828125,20.028868 30.0848125,20.8869275 29.89975,21.7112812 L24.4596875,21.7112812 C24.1198125,18.9368505 21.801875,16.7828757 19.0000625,16.7828757 C16.19825,16.7828757 13.8803125,18.9367865 13.540375,21.7112812 L8.10025,21.7112812 C7.9151875,20.8869275 7.8171875,20.028868 7.8171875,19.1479116 L7.8171875,15.0986078 L30.1828125,15.0986078 L30.18275,19.1479116 L30.1828125,19.1479116 Z M33.6236875,10.1455785 L26.43225,10.1455785 L26.43225,11.5540598 L33.623625,11.5540598 L33.623625,11.8416146 C33.623625,12.8609759 32.8133125,13.6901904 31.8171875,13.6901904 L6.1828125,13.6901904 C5.1866875,13.6901904 4.376375,12.8609759 4.376375,11.8416146 L4.376375,8.40848133 L33.6236875,8.40848133 L33.6236875,10.1455785 Z" id="path-1"></path>
+        <filter x="-19.4%" y="-24.8%" width="138.8%" height="149.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.809216142   0 0 0 0 1  0 0 0 0.982223732 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M21.9523851,11 L22.0476149,11 C22.5734982,11 23,10.5521751 23,10 C23,9.4478249 22.5734982,9 22.0476149,9 L21.9523851,9 C21.4265018,9 21,9.4478249 21,10 C21,10.5521751 21.4265018,11 21.9523851,11 Z" id="path-3"></path>
+        <filter x="-310.0%" y="-310.0%" width="720.0%" height="720.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.809216142   0 0 0 0 1  0 0 0 0.982223732 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Apple-TV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1143.000000, -239.000000)">
+        <g id="Group-9" transform="translate(1100.000000, 216.000000)" fill-rule="nonzero">
+            <g id="icon_camera" transform="translate(43.000000, 20.000000)">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#03F8FF" stroke-width="0.4" fill="#03F8FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use stroke="#03F8FF" stroke-width="0.4" fill="#03F8FF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

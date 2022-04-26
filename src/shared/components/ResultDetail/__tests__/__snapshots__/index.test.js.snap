@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultDetail component should render right thing and don't change unexpected 1`] = `
+<div
+  className="result-detail"
+>
+  <div>
+    <div
+      className="ant-spin-nested-loading"
+      style={null}
+    >
+      <div>
+        <div
+          className="ant-spin ant-spin-spinning"
+        >
+          <span
+            className="ant-spin-dot ant-spin-dot-spin"
+          >
+            <i />
+            <i />
+            <i />
+            <i />
+          </span>
+        </div>
+      </div>
+      <div
+        className="ant-spin-container ant-spin-blur"
+      >
+        <div
+          className="tupianImg"
+        >
+          <img
+            alt=""
+            onError={[Function]}
+            onLoad={[Function]}
+            src=""
+          />
+          <canvas>
+            The current browser does not support canvas
+          </canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      className="ant-list result-detail___content ant-list-split ant-list-grid"
+    >
+      <div
+        className="ant-spin-nested-loading"
+        style={null}
+      >
+        <div
+          className="ant-spin-container"
+        >
+          <div
+            className="ant-row"
+            style={
+              Object {
+                "marginLeft": -4,
+                "marginRight": -4,
+              }
+            }
+          >
+            <div
+              className="ant-col-8"
+            >
+              <div
+                className="ant-list-item"
+                style={
+                  Object {
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                  }
+                }
+              >
+                <div
+                  className="ant-list-item-content ant-list-item-content-single"
+                >
+                  <span
+                    className={undefined}
+                  >
+                    <span
+                      className="result-detail__results-card-label"
+                    >
+                      Task ID: 
+                    </span>
+                    <span
+                      className="result-detail__results-card-label-content"
+                    >
+                      1
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-col-8"
+            >
+              <div
+                className="ant-list-item"
+                style={
+                  Object {
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                  }
+                }
+              >
+                <div
+                  className="ant-list-item-content ant-list-item-content-single"
+                >
+                  <span
+                    className={undefined}
+                  >
+                    <span
+                      className="result-detail__results-card-label"
+                    >
+                      Task name: 
+                    </span>
+                    <span
+                      className="result-detail__results-card-label-content"
+                    >
+                      test
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-col-8"
+            >
+              <div
+                className="ant-list-item"
+                style={
+                  Object {
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                  }
+                }
+              >
+                <div
+                  className="ant-list-item-content ant-list-item-content-single"
+                >
+                  
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-col-8"
+            >
+              <div
+                className="ant-list-item"
+                style={
+                  Object {
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                  }
+                }
+              >
+                <div
+                  className="ant-list-item-content ant-list-item-content-single"
+                >
+                  <span
+                    className={undefined}
+                  >
+                    <span
+                      className="result-detail__results-card-label"
+                    >
+                      Task type: 
+                    </span>
+                    <span
+                      className="result-detail__results-card-label-content"
+                    >
+                      Real time monitoring
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-col-8"
+            >
+              <div
+                className="ant-list-item"
+                style={
+                  Object {
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                  }
+                }
+              >
+                <div
+                  className="ant-list-item-content ant-list-item-content-single"
+                >
+                  <span
+                    className={undefined}
+                  >
+                    <span
+                      className="result-detail__results-card-label"
+                    >
+                      Time: 
+                    </span>
+                    <span
+                      className="result-detail__results-card-label-content"
+                    >
+                      2018-06-19 05:06:06
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-col-8"
+            >
+              <div
+                className="ant-list-item"
+                style={
+                  Object {
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                  }
+                }
+              >
+                <div
+                  className="ant-list-item-content ant-list-item-content-single"
+                >
+                  <span
+                    className={undefined}
+                  >
+                    <span
+                      className="result-detail__results-card-label"
+                    >
+                      Address: 
+                    </span>
+                    <span
+                      className="result-detail__results-card-label-content"
+                    >
+                      test
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div
+      className="ant-list result-detail___mubiaocontent ant-list-split ant-list-bordered"
+    >
+      <div
+        className="ant-spin-nested-loading"
+        style={null}
+      >
+        <div
+          className="ant-spin-container"
+        >
+          <div
+            className="ant-list-empty-text"
+          >
+            No data
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

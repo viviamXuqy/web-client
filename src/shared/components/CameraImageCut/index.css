@@ -1,0 +1,80 @@
+.cameras-set .ant-input {
+    width: 198px;
+    margin: 0 8px 8px 0;
+}
+
+.cameras-set .span-lable {
+    color: rgba(137,152,170,1);
+    font-size: 16px;
+}
+
+.cameras-set .span-camera {
+    color: rgba(38,38,38,1);
+    font-size: 16px;
+    width: 150px;
+    float: left;
+}
+
+.cameras-set .tupianImg {
+    width: 483px;
+    height: 260px;
+    display: block;
+    float: left;
+    margin-left: -24px;
+    position: relative;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    /* margin-top:5px; */
+}
+
+.cameras-set .tupianImg > img {
+    width:100%;
+    height:auto;
+    max-height:100%;
+    position: absolute;
+}
+
+.cameras-set .tupianImg > canvas {
+    position: absolute;
+}
+
+.cameras-set .setArea {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cameras-set .setArea1 {
+    margin-top: 10px;
+}
+
+.cameras-set .btn {
+    margin-right: 10px;
+}
+
+.cameras-set .hint {
+    position: absolute;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    height: 20px;
+    color: red;
+    /* display: none; */
+  }
+
+.cameras-set .input-error, cameras-set .input-error:hover{
+    border: 1px solid #f5222d;
+}
+.cameras-set .input-error-msg{
+    color: #f5222d
+}
+
+.cameras-set .ml-150{
+    margin-left: 150px;
+}
+
+.cameras-set .table{
+    display: table;
+}
+.cameras-set .table-cell{
+    display: table-cell;
+}

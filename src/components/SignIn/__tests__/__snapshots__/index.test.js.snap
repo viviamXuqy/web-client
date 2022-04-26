@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignIn component should render right thing and don't change unexpected 1`] = `
+<div
+  className="main-wrapper sign-page"
+>
+  <div
+    className="sign-page__box"
+  >
+    <div
+      className="sign-page__slogan"
+    >
+      <h1>
+        Hello,
+        <br />
+        Welcome
+        <br />
+        Back！
+      </h1>
+      <h2>
+        <span>
+          百眼卫士视觉信息结构化平台
+        </span>
+      </h2>
+      <div
+        className="app-logo"
+      >
+        <img
+          alt="Logo"
+          src="logo.svg"
+        />
+      </div>
+    </div>
+    <div
+      className="sign-page__form"
+    >
+      <h1>
+        <span>
+          登录
+        </span>
+      </h1>
+      <form
+        className="ant-form ant-form-vertical"
+        onSubmit={[Function]}
+      >
+        <div
+          className="ant-row ant-form-item"
+          style={undefined}
+        >
+          <div
+            className="ant-form-item-label"
+          >
+            <label
+              className="ant-form-item-required"
+              htmlFor="username"
+              onClick={[Function]}
+              title="用户名"
+            >
+              用户名
+            </label>
+          </div>
+          <div
+            className="ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <input
+                  className="ant-input"
+                  data-__field={
+                    Object {
+                      "name": "username",
+                    }
+                  }
+                  data-__meta={
+                    Object {
+                      "name": "username",
+                      "originalProps": Object {
+                        "disabled": false,
+                        "prefixCls": "ant-input",
+                        "type": "text",
+                      },
+                      "ref": null,
+                      "rules": Array [
+                        Object {
+                          "message": "请输入用户名",
+                          "required": true,
+                        },
+                      ],
+                      "trigger": "onChange",
+                      "validate": Array [
+                        Object {
+                          "rules": Array [
+                            Object {
+                              "message": "请输入用户名",
+                              "required": true,
+                            },
+                          ],
+                          "trigger": Array [
+                            "onChange",
+                          ],
+                        },
+                      ],
+                      "valuePropName": "value",
+                    }
+                  }
+                  disabled={false}
+                  id="username"
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  type="text"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ant-row ant-form-item"
+          style={undefined}
+        >
+          <div
+            className="ant-form-item-label"
+          >
+            <label
+              className="ant-form-item-required"
+              htmlFor="password"
+              onClick={[Function]}
+              title="密码"
+            >
+              密码
+            </label>
+          </div>
+          <div
+            className="ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <input
+                  className="ant-input"
+                  data-__field={
+                    Object {
+                      "name": "password",
+                    }
+                  }
+                  data-__meta={
+                    Object {
+                      "name": "password",
+                      "originalProps": Object {
+                        "disabled": false,
+                        "prefixCls": "ant-input",
+                        "type": "password",
+                      },
+                      "ref": null,
+                      "rules": Array [
+                        Object {
+                          "message": "请输入密码",
+                          "required": true,
+                        },
+                      ],
+                      "trigger": "onChange",
+                      "validate": Array [
+                        Object {
+                          "rules": Array [
+                            Object {
+                              "message": "请输入密码",
+                              "required": true,
+                            },
+                          ],
+                          "trigger": Array [
+                            "onChange",
+                          ],
+                        },
+                      ],
+                      "valuePropName": "value",
+                    }
+                  }
+                  disabled={false}
+                  id="password"
+                  onChange={[Function]}
+                  onKeyDown={[Function]}
+                  type="password"
+                  value=""
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ant-row ant-form-item form__footer"
+          style={undefined}
+        >
+          <div
+            className="ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <label
+                  className="form__remember ant-checkbox-wrapper"
+                  onMouseEnter={undefined}
+                  onMouseLeave={undefined}
+                  style={undefined}
+                >
+                  <span
+                    className="ant-checkbox"
+                    style={Object {}}
+                  >
+                    <input
+                      autoFocus={undefined}
+                      checked={false}
+                      className="ant-checkbox-input"
+                      data-__field={
+                        Object {
+                          "name": "remember",
+                        }
+                      }
+                      data-__meta={
+                        Object {
+                          "name": "remember",
+                          "originalProps": Object {
+                            "children": "记住登录状态",
+                            "className": "form__remember",
+                            "indeterminate": false,
+                            "prefixCls": "ant-checkbox",
+                            "size": "large",
+                          },
+                          "ref": null,
+                          "trigger": "onChange",
+                          "validate": Array [],
+                          "valuePropName": "checked",
+                        }
+                      }
+                      disabled={undefined}
+                      id="remember"
+                      name={undefined}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onClick={undefined}
+                      onFocus={[Function]}
+                      readOnly={undefined}
+                      tabIndex={undefined}
+                      type="checkbox"
+                      value={undefined}
+                    />
+                    <span
+                      className="ant-checkbox-inner"
+                    />
+                  </span>
+                  <span>
+                    记住登录状态
+                  </span>
+                </label>
+                <button
+                  className="ant-btn form__btn ant-btn-primary ant-btn-lg"
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  <span>
+                    登 录
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

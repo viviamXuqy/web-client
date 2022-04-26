@@ -1,0 +1,38 @@
+.cameras-task {
+    float: right;
+    margin-top: -35px;
+}
+
+.cameras-search .cameras-uploader {
+    display: block;
+    line-height: 40px;
+}
+
+.cameras-uploader .ant-upload-list-item-name {
+    pointer-events: none;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.cameras-fl {
+    float: left;
+    max-width: 32%;
+}
+
+.app-page__filter{
+    overflow-y:auto;
+}
+
+.btn-group{
+    margin-left: 25px;
+    float: left;
+}
+
+/*上传modal弹出框*/
+.upload-modal .cameras-uploader{
+    display: block;
+    margin-bottom: 20px;
+}
+.upload-modal .ant-upload-list{
+    float: left;
+    margin-right: 10px;
+}

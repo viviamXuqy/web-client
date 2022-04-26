@@ -1,0 +1,76 @@
+.app-task-pic-add .window-content__footer {
+  margin-top: 0px;
+}
+
+.app-task-pic-add .input .ant-input {
+  width: 280px;
+  margin: 0 8px 8px 0;
+}
+
+.app-task-pic-add .lable {
+  color: rgba(137,152,170,1);
+  font-size: 16px;
+  text-align: right;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+
+.app-task-pic-add .lable2 {
+  vertical-align: middle;
+}
+
+.app-task-pic-add .bayonet-table {
+  margin-top: 16px;
+  width: 280px;
+}
+
+.app-task-pic-add .bayonet-table .ant-table {
+  min-height: 150px;
+}
+
+.app-task-pic-add .feature {
+  margin-top: 6px;
+  width: 160px;
+}
+
+.app-task-pic-add .feature .ant-table {
+  min-height: 170px;
+}
+
+.app-task-pic-add .select-camera {
+  margin-top: 15px;
+}
+
+.app-task-pic-add .select-camera-table {
+  width: 280px;
+}
+
+.app-task-pic-add .select-camera-table .ant-table {
+  min-height: 187px;
+}
+
+.app-task-pic-add .selected-camera-clear {
+  color: rgba(217,68,76,1);
+  margin-right: 10px;
+}
+
+.app-task-pic-add .selected-camera-tablelink{
+  border: 0;
+  background-color: transparent;
+  outline:none;
+}
+.app-task-pic-add .selected-camera-tablelink:hover, .selected-camera-tablelink:visited{
+  border: 0;
+  background-color: transparent;
+  cursor:pointer;
+  outline:none;
+}
+
+.app-task-pic-add .selected-camera {
+  margin-top: 6px;
+  width: 340px;
+}
+
+.app-task-pic-add .selected-camera .ant-table {
+  min-height: 187px;
+}

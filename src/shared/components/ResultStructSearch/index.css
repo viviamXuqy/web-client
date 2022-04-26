@@ -1,0 +1,29 @@
+.app-result-struct-search .window-content__footer {
+  margin-top: 3em;  
+}
+
+.app-result-struct-search .input .ant-input {
+width: 280px;
+margin: 0 8px 8px 0;
+}
+
+.app-result-struct-search .lable {
+color: rgba(137,152,170,1);
+font-size: 16px;
+text-align: right;
+vertical-align: middle;
+margin-top: 5px;
+}
+
+.app-result-struct-search .lable2 {
+vertical-align: middle;
+}
+
+.app-result-struct-search .feature {
+margin-top: 6px;
+width: 160px;
+}
+
+.app-result-struct-search .feature .ant-table {
+min-height: 170px;
+}

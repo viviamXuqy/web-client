@@ -1,0 +1,68 @@
+.results-card-label {
+  color: rgb(137, 137, 137);
+  font-size: 12px;
+}
+
+.results-card-label-content {
+  color: rgb(28, 28, 31);
+  font-size: 12px;
+}
+
+.results-card-div {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.results-card-div-border {
+  padding: 8px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid;
+  border-color: rgba(66, 109, 160, 1);
+}
+
+.results-card-content {
+  .ant-btn-dashed {
+    border: 0;
+    background-color: transparent;
+    outline: none;
+
+    &:hover, &:focus {
+      border: 0;
+      background-color: transparent;
+      outline: none;
+    }
+  }
+
+  .large-icon {
+    font-size: 18px;
+  }
+
+  .divhand {
+    cursor: pointer;
+  }
+}
+
+.results-card-content__btnGroups {
+  float: right;
+
+  .ant-radio-wrapper {
+    margin-right: 0;
+  }
+}
+
+.results-card__lazyload {
+  opacity: 1;
+  animation: results-card__lazyload-show 2s ease-in-out 1;
+}
+
+@keyframes results-card__lazyload-show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

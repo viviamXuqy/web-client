@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="30px" viewBox="0 0 116 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>time_bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="26.8667012%" x2="100%" y2="26.8667024%" id="linearGradient-1">
+            <stop stop-color="#73D0ED" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#03D0FF" stop-opacity="0.58740942" offset="51.0826289%"></stop>
+            <stop stop-color="#72D0ED" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="26.8667012%" x2="100%" y2="26.8667024%" id="linearGradient-2">
+            <stop stop-color="#A6EAFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#03D0FF" offset="51.0826289%"></stop>
+            <stop stop-color="#72D0ED" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Apple-TV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1542.000000, -407.000000)">
+        <g id="Group-14-Copy" transform="translate(1419.000000, 324.000000)">
+            <g id="Group-13" transform="translate(123.000000, 59.000000)">
+                <g id="time_bg" transform="translate(0.000000, 25.000000)">
+                    <rect id="Rectangle-14" fill="url(#linearGradient-1)" x="0" y="0" width="116" height="28"></rect>
+                    <path d="M22,0.5 L97,0.5" id="Path-5" stroke="url(#linearGradient-2)" stroke-width="1.5" opacity="0.400815217"></path>
+                    <path d="M22,27.5 L97,27.5" id="Path-5-Copy" stroke="url(#linearGradient-2)" stroke-width="1.5" opacity="0.400815217"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,684 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Results component should render right thing and don't change unexpected 1`] = `
+Array [
+  <mock-Sider
+    selectedKey="results-resultsList"
+/>,
+  <div
+    className="app-page"
+>
+    <div
+        className="ant-card app-card"
+    >
+        <div
+            className="ant-card-body"
+            style={Object {}}
+        >
+            <h1
+                className="app-page__title"
+            >
+                结果列表
+            </h1>
+            <div>
+                <form
+                    className="ant-form ant-form-inline app-page__filter"
+                    onSubmit={[Function]}
+                >
+                    <div
+                        className="fl"
+                    >
+                        <div
+                            className="ant-row ant-form-item"
+                            style={undefined}
+                        >
+                            <div
+                                className="ant-form-item-control-wrapper"
+                            >
+                                <div
+                                    className="ant-form-item-control"
+                                >
+                                    <span
+                                        className="ant-form-item-children"
+                                    >
+                                        <input
+                                            className="ant-input result-input"
+                                            data-__field={
+                                                Object {
+                                                    "name": "search",
+                                                    "value": "",
+                                                  }
+                                            }
+                                            data-__meta={
+                                                Object {
+                                                    "name": "search",
+                                                    "originalProps": Object {
+                                                      "className": "result-input",
+                                                      "disabled": false,
+                                                      "placeholder": "关键字",
+                                                      "prefixCls": "ant-input",
+                                                      "type": "text",
+                                                    },
+                                                    "ref": null,
+                                                    "trigger": "onChange",
+                                                    "validate": Array [],
+                                                    "valuePropName": "value",
+                                                  }
+                                            }
+                                            disabled={false}
+                                            id="search"
+                                            onChange={[Function]}
+                                            onKeyDown={[Function]}
+                                            placeholder="关键字"
+                                            type="text"
+                                            value=""
+                                        />
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="ant-row ant-form-item"
+                            style={undefined}
+                        >
+                            <div
+                                className="ant-form-item-control-wrapper"
+                            >
+                                <div
+                                    className="ant-form-item-control has-success"
+                                >
+                                    <span
+                                        className="ant-form-item-children"
+                                    >
+                                        <span
+                                            className="ant-calendar-picker"
+                                            id="range"
+                                            onBlur={[Function]}
+                                            onFocus={[Function]}
+                                            style={
+                                                Object {
+                                                    "width": 330,
+                                                  }
+                                            }
+                                            tabIndex={0}
+                                        >
+                                            <span
+                                                className="ant-calendar-picker-input ant-input"
+                                                onBlur={undefined}
+                                                onClick={[Function]}
+                                                onContextMenu={undefined}
+                                                onFocus={undefined}
+                                                onKeyDown={[Function]}
+                                                onMouseDown={[Function]}
+                                                onMouseEnter={undefined}
+                                                onMouseLeave={undefined}
+                                                onTouchStart={[Function]}
+                                            >
+                                                <input
+                                                    className="ant-calendar-range-picker-input"
+                                                    disabled={undefined}
+                                                    placeholder="开始日期"
+                                                    readOnly={true}
+                                                    tabIndex={-1}
+                                                    value=""
+                                                />
+                                                <span
+                                                    className="ant-calendar-range-picker-separator"
+                                                >
+                                                     ~ 
+                                                </span>
+                                                <input
+                                                    className="ant-calendar-range-picker-input"
+                                                    disabled={undefined}
+                                                    placeholder="结束日期"
+                                                    readOnly={true}
+                                                    tabIndex={-1}
+                                                    value=""
+                                                />
+                                                <span
+                                                    className="ant-calendar-picker-icon"
+                                                />
+                                            </span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="ant-row ant-form-item"
+                            style={undefined}
+                        >
+                            <div
+                                className="ant-form-item-control-wrapper"
+                            >
+                                <div
+                                    className="ant-form-item-control"
+                                >
+                                    <span
+                                        className="ant-form-item-children"
+                                    >
+                                        <input
+                                            className="ant-input result-input"
+                                            data-__field={
+                                                Object {
+                                                    "name": "taskBeginId",
+                                                    "value": undefined,
+                                                  }
+                                            }
+                                            data-__meta={
+                                                Object {
+                                                    "name": "taskBeginId",
+                                                    "originalProps": Object {
+                                                      "className": "result-input",
+                                                      "disabled": false,
+                                                      "placeholder": "开始任务ID",
+                                                      "prefixCls": "ant-input",
+                                                      "type": "text",
+                                                    },
+                                                    "ref": null,
+                                                    "trigger": "onChange",
+                                                    "validate": Array [],
+                                                    "valuePropName": "value",
+                                                  }
+                                            }
+                                            disabled={false}
+                                            id="taskBeginId"
+                                            onChange={[Function]}
+                                            onKeyDown={[Function]}
+                                            placeholder="开始任务ID"
+                                            type="text"
+                                            value=""
+                                        />
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="results-list__lable"
+                        >
+                            至
+                        </div>
+                        <div
+                            className="ant-row ant-form-item"
+                            style={undefined}
+                        >
+                            <div
+                                className="ant-form-item-control-wrapper"
+                            >
+                                <div
+                                    className="ant-form-item-control"
+                                >
+                                    <span
+                                        className="ant-form-item-children"
+                                    >
+                                        <input
+                                            className="ant-input result-input"
+                                            data-__field={
+                                                Object {
+                                                    "name": "taskEndId",
+                                                    "value": undefined,
+                                                  }
+                                            }
+                                            data-__meta={
+                                                Object {
+                                                    "name": "taskEndId",
+                                                    "originalProps": Object {
+                                                      "className": "result-input",
+                                                      "disabled": false,
+                                                      "placeholder": "结束任务ID",
+                                                      "prefixCls": "ant-input",
+                                                      "type": "text",
+                                                    },
+                                                    "ref": null,
+                                                    "trigger": "onChange",
+                                                    "validate": Array [],
+                                                    "valuePropName": "value",
+                                                  }
+                                            }
+                                            disabled={false}
+                                            id="taskEndId"
+                                            onChange={[Function]}
+                                            onKeyDown={[Function]}
+                                            placeholder="结束任务ID"
+                                            type="text"
+                                            value=""
+                                        />
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="ant-row ant-form-item buttons-group"
+                            style={undefined}
+                        >
+                            <div
+                                className="ant-form-item-control-wrapper"
+                            >
+                                <div
+                                    className="ant-form-item-control"
+                                >
+                                    <span
+                                        className="ant-form-item-children"
+                                    >
+                                        <button
+                                            className="ant-btn ant-btn-primary"
+                                            onClick={[Function]}
+                                            type="submit"
+                                        >
+                                            <i
+                                                className="anticon anticon-search"
+                                            />
+                                            <span>
+                                                检索
+                                            </span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div
+                className="app-page__actions buttons-group"
+            >
+                <button
+                    className="ant-btn ant-btn-primary"
+                    onClick={[Function]}
+                    type="button"
+                >
+                    <i
+                        className="anticon iconfont icon-structuredsearc"
+                    />
+                    <span>
+                        结构化检索
+                    </span>
+                </button>
+                <button
+                    className="ant-btn ant-btn-primary"
+                    onClick={[Function]}
+                    type="button"
+                >
+                    <i
+                        className="anticon iconfont icon-search"
+                    />
+                    <span>
+                        以图搜图
+                    </span>
+                </button>
+                <button
+                    className="ant-btn ant-btn-warn"
+                    disabled={true}
+                    onClick={[Function]}
+                    type="button"
+                >
+                    <i
+                        className="anticon anticon-primary"
+                    />
+                    <i
+                        className="anticon iconfont icon-delete"
+                    />
+                    <span>
+                        批量删除
+                    </span>
+                </button>
+                <button
+                    className="ant-btn ant-btn-danger"
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                >
+                    <i
+                        className="anticon anticon-primary"
+                    />
+                    <i
+                        className="anticon iconfont icon-delete"
+                    />
+                    <span>
+                        清空列表
+                    </span>
+                </button>
+                <button
+                    className="ant-btn ant-btn-primary"
+                    onClick={[Function]}
+                    style={
+                        Object {
+                            "display": "none",
+                          }
+                    }
+                    type="button"
+                >
+                    <i
+                        className="anticon iconfont icon-therefresh"
+                    />
+                    <span>
+                        重置
+                    </span>
+                </button>
+            </div>
+            <div>
+                <div
+                    className="ant-list results-list ant-list-split ant-list-grid ant-list-something-after-last-item"
+                >
+                    <div
+                        className="ant-spin-nested-loading"
+                        style={null}
+                    >
+                        <div
+                            className="ant-spin-container"
+                        >
+                            <div
+                                className="ant-row"
+                                style={
+                                    Object {
+                                        "marginLeft": -10,
+                                        "marginRight": -10,
+                                      }
+                                }
+                            >
+                                <div
+                                    className="ant-col-6"
+                                >
+                                    <div
+                                        className="ant-list-item results-list__item"
+                                        style={
+                                            Object {
+                                                "paddingLeft": 10,
+                                                "paddingRight": 10,
+                                              }
+                                        }
+                                    >
+                                        <div
+                                            className="ant-list-item-content ant-list-item-content-single"
+                                        >
+                                            <mock-ResultsCard
+                                                isResultList={true}
+                                                isSelected={false}
+                                                onDelete={[Function]}
+                                                onSelect={[Function]}
+                                                result={
+                                                    Object {
+                                                        "_id": 0,
+                                                        "id": "0",
+                                                        "key": "0",
+                                                        "targetType": "car",
+                                                        "taskId": 0,
+                                                        "taskName": "test",
+                                                        "taskType": 1,
+                                                        "time": 1529355966000,
+                                                      }
+                                                }
+                                                showResultDetail={[Function]}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="ant-col-6"
+                                >
+                                    <div
+                                        className="ant-list-item results-list__item"
+                                        style={
+                                            Object {
+                                                "paddingLeft": 10,
+                                                "paddingRight": 10,
+                                              }
+                                        }
+                                    >
+                                        <div
+                                            className="ant-list-item-content ant-list-item-content-single"
+                                        >
+                                            <mock-ResultsCard
+                                                isResultList={true}
+                                                isSelected={false}
+                                                onDelete={[Function]}
+                                                onSelect={[Function]}
+                                                result={
+                                                    Object {
+                                                        "_id": 1,
+                                                        "id": "1",
+                                                        "key": "1",
+                                                        "targetType": "car",
+                                                        "taskId": 1,
+                                                        "taskName": "test",
+                                                        "taskType": 1,
+                                                        "time": 1529355966000,
+                                                      }
+                                                }
+                                                showResultDetail={[Function]}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="ant-col-6"
+                                >
+                                    <div
+                                        className="ant-list-item results-list__item"
+                                        style={
+                                            Object {
+                                                "paddingLeft": 10,
+                                                "paddingRight": 10,
+                                              }
+                                        }
+                                    >
+                                        <div
+                                            className="ant-list-item-content ant-list-item-content-single"
+                                        >
+                                            <mock-ResultsCard
+                                                isResultList={true}
+                                                isSelected={false}
+                                                onDelete={[Function]}
+                                                onSelect={[Function]}
+                                                result={
+                                                    Object {
+                                                        "_id": 2,
+                                                        "id": "2",
+                                                        "key": "2",
+                                                        "targetType": "car",
+                                                        "taskId": 2,
+                                                        "taskName": "test",
+                                                        "taskType": 1,
+                                                        "time": 1529355966000,
+                                                      }
+                                                }
+                                                showResultDetail={[Function]}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="ant-col-6"
+                                >
+                                    <div
+                                        className="ant-list-item results-list__item"
+                                        style={
+                                            Object {
+                                                "paddingLeft": 10,
+                                                "paddingRight": 10,
+                                              }
+                                        }
+                                    >
+                                        <div
+                                            className="ant-list-item-content ant-list-item-content-single"
+                                        >
+                                            <mock-ResultsCard
+                                                isResultList={true}
+                                                isSelected={false}
+                                                onDelete={[Function]}
+                                                onSelect={[Function]}
+                                                result={
+                                                    Object {
+                                                        "_id": 3,
+                                                        "id": "3",
+                                                        "key": "3",
+                                                        "targetType": "car",
+                                                        "taskId": 3,
+                                                        "taskName": "test",
+                                                        "taskType": 1,
+                                                        "time": 1529355966000,
+                                                      }
+                                                }
+                                                showResultDetail={[Function]}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    className="ant-col-6"
+                                >
+                                    <div
+                                        className="ant-list-item results-list__item"
+                                        style={
+                                            Object {
+                                                "paddingLeft": 10,
+                                                "paddingRight": 10,
+                                              }
+                                        }
+                                    >
+                                        <div
+                                            className="ant-list-item-content ant-list-item-content-single"
+                                        >
+                                            <mock-ResultsCard
+                                                isResultList={true}
+                                                isSelected={false}
+                                                onDelete={[Function]}
+                                                onSelect={[Function]}
+                                                result={
+                                                    Object {
+                                                        "_id": 4,
+                                                        "id": "4",
+                                                        "key": "4",
+                                                        "targetType": "car",
+                                                        "taskId": 4,
+                                                        "taskName": "test",
+                                                        "taskType": 1,
+                                                        "time": 1529355966000,
+                                                      }
+                                                }
+                                                showResultDetail={[Function]}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        className="ant-list-pagination"
+                    >
+                        <ul
+                            className="ant-pagination "
+                            style={Object {}}
+                            unselectable="unselectable"
+                        >
+                            <li
+                                aria-disabled={true}
+                                className="ant-pagination-disabled ant-pagination-prev"
+                                onClick={[Function]}
+                                onKeyPress={[Function]}
+                                tabIndex={null}
+                                title="上一页"
+                            >
+                                <a
+                                    className="ant-pagination-item-link"
+                                />
+                            </li>
+                            <li
+                                className="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+                                onClick={[Function]}
+                                onKeyPress={[Function]}
+                                tabIndex="0"
+                                title={1}
+                            >
+                                <a>
+                                    1
+                                </a>
+                            </li>
+                            <li
+                                className="ant-pagination-item ant-pagination-item-2"
+                                onClick={[Function]}
+                                onKeyPress={[Function]}
+                                tabIndex="0"
+                                title={2}
+                            >
+                                <a>
+                                    2
+                                </a>
+                            </li>
+                            <li
+                                className="ant-pagination-item ant-pagination-item-3"
+                                onClick={[Function]}
+                                onKeyPress={[Function]}
+                                tabIndex="0"
+                                title={3}
+                            >
+                                <a>
+                                    3
+                                </a>
+                            </li>
+                            <li
+                                className="ant-pagination-item ant-pagination-item-4"
+                                onClick={[Function]}
+                                onKeyPress={[Function]}
+                                tabIndex="0"
+                                title={4}
+                            >
+                                <a>
+                                    4
+                                </a>
+                            </li>
+                            <li
+                                className="ant-pagination-item ant-pagination-item-5 ant-pagination-item-before-jump-next"
+                                onClick={[Function]}
+                                onKeyPress={[Function]}
+                                tabIndex="0"
+                                title={5}
+                            >
+                                <a>
+                                    5
+                                </a>
+                            </li>
+                            <li
+                                className="ant-pagination-jump-next"
+                                onClick={[Function]}
+                                onKeyPress={[Function]}
+                                tabIndex="0"
+                                title="向后 5 页"
+                            >
+                                <a
+                                    className="ant-pagination-item-link"
+                                />
+                            </li>
+                            <li
+                                className="ant-pagination-item ant-pagination-item-20"
+                                onClick={[Function]}
+                                onKeyPress={[Function]}
+                                tabIndex="0"
+                                title={20}
+                            >
+                                <a>
+                                    20
+                                </a>
+                            </li>
+                            <li
+                                aria-disabled={false}
+                                className=" ant-pagination-next"
+                                onClick={[Function]}
+                                onKeyPress={[Function]}
+                                tabIndex={0}
+                                title="下一页"
+                            >
+                                <a
+                                    className="ant-pagination-item-link"
+                                />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>,
+]
+`;
